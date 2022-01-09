@@ -1,0 +1,9 @@
+https://github.com/akaunting/akaunting#readme
+###################################################
+Installation
+Install Composer and Npm
+Clone the repository: git clone https://github.com/akaunting/akaunting.git
+Install dependencies: composer install ; npm install ; npm run dev
+Install Akaunting:
+php artisan install --db-name="akaunting" --db-username="root" --db-password="pass" --admin-email="admin@company.com" --admin-password="123456"
+Create sample data (optional): php artisan sample-data:seed
